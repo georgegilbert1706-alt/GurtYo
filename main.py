@@ -39,7 +39,7 @@ ax.scatter([input_year], [prediction], color='green', label=f'Prediksi tahun {in
 
 ax.set_xlabel("Tahun")
 ax.set_label("Gaji")
-ax.set_label(f'Ten Kenaikan gaji di {inpu_region}')
+ax.set_label(f'Ten Kenaikan gaji di {input_region}')
 ax.legend()
 
 st.pyplot(fig)
