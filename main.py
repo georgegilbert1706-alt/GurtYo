@@ -1,6 +1,7 @@
 import pandas as pd
 from sklearn.linear_model import LinearRegression
 import streamlit as st
+import matplotlib.pyplot as plt
 
 df = pd.read_csv('indonesian_salary_by_region.csv')
 
