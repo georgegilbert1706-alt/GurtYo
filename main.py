@@ -32,7 +32,7 @@ st.subheader("Grafik Prediksi")
 
 fig, ax = plt.subplots()
 
-ax.scatter(X, y label=f'Data Historis UMP/UMK {input_region} 1997-2025', color='blue')
+ax.scatter(X, y, label=f'Data Historis UMP/UMK {input_region} 1997-2025', color='blue')
 ax.plot(X, model.predict(X))
 
 ax.scatter([input_year], [prediction], color='green', label=f'Prediksi tahun {input_year}')
